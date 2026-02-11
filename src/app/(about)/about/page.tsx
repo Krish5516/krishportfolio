@@ -7,6 +7,8 @@ import { CardHoverEffectDemo } from "../components/CardHoverEffectDemo";
 import { CardHoverReveal } from "../components/CardHoverReveal";
 import Education from "../components/Education";
 import profile from "../../../../public/Images/profile.jpg";
+import Certification from "../components/Certification";
+    
 
 const page = () => {
   const words = [
@@ -92,6 +94,14 @@ const page = () => {
         </h1>
         <Education />
       </div>
+      <div>
+        <h1 className="mt-4 sm:text-4xl text-2xl  font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-neutral-50 to-green-400/40 bg-opacity-50 sm:py-6 tracking-wide">
+          EXPERIENCES !
+          <br />
+        </h1>
+        <Certification />
+      </div>
+
     </div>
   );
 };

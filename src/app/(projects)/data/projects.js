@@ -1,9 +1,9 @@
-import tiffin from "../../../../public/Images/TiffinService.png";
-import npm from "../../../../public/Images/npm.png";
-import codemine from "../../../../public/Images/codemine.png";
+import virtualquiz from "../../../../public/Images/virtualquiz.jpg";
+import officeflow from "../../../../public/Images/companydashboard.jpg";
+import ELearning from "../../../../public/Images/elearning.jpg";
 import enotebook from "../../../../public/Images/enotebook.png";
-import crypto from "../../../../public/Images/crypto.png";
-import aceUI from "../../../../public/Images/aceUI.png";
+import bookeasy from "../../../../public/Images/bookeasy.png";
+import photo from "../../../../public/Images/photography.png";
 import portfolio from "../../../../public/Images/portfolio.jpg";
 import weather from "../../../../public/Images/weather.png";
 import rupee from "../../../../public/Images/MyRupee.png";
@@ -12,16 +12,18 @@ import resumifyX from "../../../../public/Images/resumifyX.png";
 import retroUI from "../../../../public/Images/retroUI.png";
 import saarthi from "../../../../public/Images/saarthi-engstudy.png";
 
+
+
 const data = {
   // Best Projects
   bestProjects: [
     {
       id: 1,
-      title: "getYourTiffin()",
+      title: "Virtual Quiz",
       description:
-        "Customers can easily select their desired menu items, create orders, and make payments using Razorpay integration.",
-      url: "https://book-your-tiffin-online.vercel.app/",
-      imgSrc: tiffin,
+        "A Python–OpenCV virtual MCQ quiz game that detects hand gestures in real time for interactive answering and instant feedback.",
+      url: "https://drive.google.com/file/d/1Ih9bT32S9heB4-D-5jKn-z3j8VqUvis0/view?usp=sharing",
+      imgSrc: virtualquiz,
       skills: [
         {
           id: 1,
@@ -51,11 +53,11 @@ const data = {
 
     {
       id: 2,
-      title: "motivate.js - An NPM Package",
+      title: "Office Flow",
       description:
-        "An NPM Package that will show you the motivational quote while error gets occure.",
-      url: "https://www.npmjs.com/package/motivatejs",
-      imgSrc: npm,
+        "A PHP CodeIgniter–based employee management system that tracks work sessions, manages tasks, and generates detailed performance reports.",
+      url: "https://employeetracking.42web.io/",
+      imgSrc: officeflow,
 
       skills: [
         {
@@ -86,11 +88,11 @@ const data = {
 
     {
       id: 3,
-      title: "Code_Mine",
+      title: "ELearning",
       description:
-        "The Platform where you can Read Blogs related to Technology and Coding and share your thought into the comment section.",
-      url: "https://code-mine.vercel.app/",
-      imgSrc: codemine,
+        "E-Learning platform where students purchase courses and watch teacher-uploaded prerecorded lectures through a secure, user-friendly interface using PHP.",
+      url: "https://elearningkrish.42web.io/",
+      imgSrc: ELearning,
 
       skills: [
         {
@@ -156,49 +158,35 @@ const data = {
 
     {
       id: 5,
-      title: "resumifyX",
+      title: "BookEasy",
       description:
-        "Developed a dynamic and user-friendly web application that allows users to create professional resumes with ease.",
-      url: "https://resumifyx.vercel.app/",
-      imgSrc: resumifyX,
+        "Designed a ticket booking platform supporting travel and events, including admin panel, payments, and reports.",
+      url: "https://eticket.42web.io/",
+      imgSrc: bookeasy,
     },
 
+    
     {
       id: 6,
-      title: "retroUI",
+      title: "Phtography Management",
       description:
-        "Explore our Application UI components, designed for crafting dynamic web applications with versatile interface elements.",
-      url: "https://retro-ui-component.vercel.app/",
-      imgSrc: retroUI,
+        "A photography studio management system enabling photographers to manage bookings, clients, quotations, tasks, invoices, services, packages, and business revenue through a centralized dashboard.",
+      url: "https://krishphotography.42web.io/",
+      imgSrc: photo,
     },
 
-    {
-      id: 7,
-      title: "Saarthi_EngStudy",
-      description:
-        "A study material sharing platform with secure uploads, cloud storage, and a smooth user experience, powered by Next.js, MongoDB, and Vercel.",
-      url: "https://saarthi-engstudy.vercel.app/",
-      imgSrc: saarthi,
-    },
   ],
+
 
   // All Projects
   otherProjects: [
     {
-      id: 5,
+      id: 11,
       title: "CryptoVerse",
       description:
         "The Platform where you can see all the details about digital currencies and explore it.",
       url: "https://crypto-verse07.netlify.app/",
       imgSrc: crypto,
-    },
-
-    {
-      id: 6,
-      title: "Music Class",
-      description: "Use of Aceternity UI, A Frontend Library.",
-      url: "https://aceternity-ui-library.vercel.app/",
-      imgSrc: aceUI,
     },
 
     {

@@ -49,7 +49,7 @@ export function ThreeDCardDemo({ title, description, url, imgSrc }: any) {
           <CardItem
             translateZ={20}
             as={Link}
-            href={"https://github.com/Omi-Patel"}
+            href={"https://github.com/Krish5516"}
             target="__blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-[#313131] dark:text-white text-white text-xs font-bold"
           >
